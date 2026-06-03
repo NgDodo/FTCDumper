@@ -26,9 +26,9 @@ public class SwervePodTest extends LinearOpMode {
     private static final int    COUNTS_PER_REV  = 12288;
     private static final int    ROTATION_TARGET = (int)(45.0 / 360.0 * COUNTS_PER_REV);
 
-    private static final double kP              = 0.003;
-    private static final double kD              = 0.0001;
-    private static final double MAX_STEER_POWER = 0.6;
+    private static final double kP              = 0.0002;
+    private static final double kD              = 0.0000;
+    private static final double MAX_STEER_POWER = 1;
     private static final double DEADBAND        = 0.05;
 
     private double prevError = 0;
